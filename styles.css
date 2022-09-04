@@ -1,0 +1,127 @@
+
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Roboto Mono';
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.top {
+	width: 100%;
+	background-color: #0a0a23;
+	margin: 0;
+}
+
+#logo {
+	width: 100%;
+	max-width: 210px;
+	min-width: 210px;
+	margin: 7px 0 2px 0;
+	cursor: pointer;
+}
+
+.img-middle {
+	width: 205px;
+	margin: 0 auto;
+}
+
+form {
+	width: 780px;
+	margin: 50px auto;
+	diplay: flex;
+	flex-wrap: wrap;
+}
+
+.full-width {
+	width: 100%;
+}
+
+button, input {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1.4rem;
+	padding: 12px;
+	margin: 5px auto;
+	border-radius: 0;
+}
+
+button {
+	background-color: #d0d0df;
+	color: #0a0a23;
+	border: 3px solid #0a0a23;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #0a0a23;
+	color: #fff;
+}
+
+.custom {
+	margin: 0 90px;
+}
+
+p {
+	color: #242415;
+}
+
+#or-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	margin: 15px 0 10px 0;
+}
+
+.or {
+	margin: 0;
+}
+
+.or.p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin-bottom: 5px;
+}
+
+.or.row {
+	width: 25%;
+	height: 3px;
+	background-color: #242415;
+}
+
+.des {
+	font-weight: light;
+	font-size: 1rem;
+	letter-spacing: -0.5px;
+}
+
+p a {
+	color: #242415;
+}
+
+a:hover {
+	background-color: #d0d0df;
+	text-decoration: none;
+	
+}
+
+button:focus, input:focus {
+	outline: none;
+}
+
+@media (max-width: 800px){
+	form {
+		width: 90%;
+	}
+	
+	.custom {
+		margin: 0 10px;
+	}
+}
