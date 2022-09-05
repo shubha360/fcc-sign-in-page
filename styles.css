@@ -28,7 +28,7 @@ body {
 	width: 100%;
 	max-width: 210px;
 	min-width: 210px;
-	margin: 7px 0 2px 0;
+	margin: 7px 0 7px 0;
 	cursor: pointer;
 }
 
@@ -40,8 +40,6 @@ body {
 form {
 	width: 780px;
 	margin: 80px auto;
-	diplay: flex;
-	flex-wrap: wrap;
 }
 
 .full-width {
@@ -57,7 +55,7 @@ button, input {
 }
 
 button {
-	background-color: #d0d0df;
+	background-color: #dfdfe2;
 	color: #0a0a23;
 	border: 3px solid #0a0a23;
 }
@@ -119,6 +117,10 @@ a:hover {
 
 button:focus, input:focus {
 	outline: none;
+}
+
+input:invalid {
+	border: 1px solid #a94442;
 }
 
 @media (max-width: 800px){

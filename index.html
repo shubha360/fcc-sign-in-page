@@ -1,11 +1,13 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<title>Sign in to freeCodeCamp</title>
+		
 		<link rel="stylesheet" href="styles.css">
+		
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
@@ -17,8 +19,8 @@
 		
 		<form>
 			<div class="custom">
-				<button class="full-width">Continue with Google</button>
-				<button class="full-width">Continue with Github</button>
+				<button id="button-google" class="full-width">Continue with Google</button>
+				<button id="button-github" class="full-width">Continue with Github</button>
 			</div>
 			
 			<div id="or-box">
@@ -29,7 +31,7 @@
 			
 			<div class="custom">
 				<input class="full-width" type="email" required placeholder="email">
-				<button class="full-width">Email me a sign in code</button>
+				<button id="button-email" class="full-width">Email me a sign in code</button>
 			</div>
 			<p class="full-width des">freeCodeCamp is free and your account is private by default. We use your email address to store your curriculum progress
 			By continuing, you indicate that you have read and agree to freeCodeCamp.org's <a href="">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
